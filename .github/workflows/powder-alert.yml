@@ -1,0 +1,50 @@
+name: Powder Alert
+
+on:
+  schedule:
+    # GitHub cron is UTC. Every 20 min from 10:00–18:59 UTC ≈ 3–11 AM MST / 4 AM–noon MDT.
+    # The app enforces your exact morning_window from config.yaml.
+    - cron: "*/20 10-18 * * *"
+    # Evening forecast heads-up: 01:00 and 02:00 UTC ≈ 6–7 PM MST / 7–8 PM MDT.
+    - cron: "5 1,2 * * *"
+  workflow_dispatch:       # "Run workflow" button for manual checks
+    inputs:
+      args:
+        description: "Extra args (e.g. --force --dry-run, or --test-notify)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write          # lets the run save state.json + the dashboard
+
+concurrency:
+  group: powder-alert
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check snow + traffic
+        env:
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
+          NTFY_TOPIC:     ${{ secrets.NTFY_TOPIC }}
+          SMTP_USER:      ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:  ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO:       ${{ secrets.EMAIL_TO }}
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER:  ${{ secrets.PUSHOVER_USER }}
+        run: python -m powder_alert ${{ github.event.inputs.args }}
+      - name: Save state + dashboard
+        run: |
+          git config user.name  "powder-alert-bot"
+          git config user.email "powder-alert-bot@users.noreply.github.com"
+          git add state.json docs/ 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "powder check $(date -u +%FT%TZ)" && git push)

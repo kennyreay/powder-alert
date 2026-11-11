@@ -1,0 +1,98 @@
+# ─────────────────────────────────────────────────────────────
+#  Powder Alert — configuration
+#  Edit this file to change resorts, thresholds and notifications.
+#  Secrets (API keys, passwords) go in environment variables / GitHub
+#  Secrets, NEVER in this file.
+# ─────────────────────────────────────────────────────────────
+
+timezone: America/Denver
+
+# ── Regions ──────────────────────────────────────────────────
+# Each region has its own starting point for the traffic check and its own
+# fallback traffic pattern (used only when there's no TomTom key).
+#   enabled: false  → skip the whole region (e.g. Utah when you're not there)
+regions:
+  colorado:
+    label: Colorado · I-70
+    enabled: true
+    home: {name: Denver, lat: 39.7392, lon: -104.9903}
+    traffic_profile: i70
+  utah:
+    label: Utah · Wasatch Front
+    enabled: true
+    # Where you'd start the drive in Utah — change to your hotel/house.
+    home: {name: Salt Lake City, lat: 40.7608, lon: -111.8910}
+    traffic_profile: wasatch
+
+# ── The rules ────────────────────────────────────────────────
+rules:
+  min_new_snow_in: 6          # "ideal" = at least this much new snow
+  lookback_hours: 24          # ...within this many hours
+  max_traffic_ratio: 1.25     # drive time ÷ free-flow drive time (1.0 = empty road)
+  max_traffic_delay_min: 15   # and no more than this many minutes of delay
+  morning_window: "04:30-11:00"   # when to check for "go now" alerts (local time)
+  evening_forecast_time: "18:30-20:00"  # when to send "tomorrow looks deep" heads-up
+  forecast_heads_up: true     # send the evening heads-up when ≥ min_new_snow_in is forecast
+  departure_search_hours: 3   # if traffic is bad, look this far ahead for a better departure time
+  departure_step_min: 30
+  snotel_swe_ratio: 12        # snow-to-water ratio used for the SWE cross-check
+
+# ── Resorts ──────────────────────────────────────────────────
+# region:      which region (above) this resort belongs to
+# snotel:      NRCS SNOTEL station triplets near the resort (ID:STATE:SNTL)
+#              find more: https://wcc.sc.egov.usda.gov/nwcc/rgrpt?state=CO (or UT)
+# elevation_m: mid-mountain elevation, used to downscale model snowfall
+# report:      OPTIONAL resort snow-report scraper (url + regex capturing inches)
+resorts:
+  # ─── Colorado · I-70 ───
+  - {name: Loveland,        region: colorado, lat: 39.680, lon: -105.898, elevation_m: 3505, snotel: ["602:CO:SNTL"]}            # Loveland Basin
+  - {name: Arapahoe Basin,  region: colorado, lat: 39.642, lon: -105.872, elevation_m: 3505, snotel: ["505:CO:SNTL"]}            # Grizzly Peak
+  - {name: Keystone,        region: colorado, lat: 39.605, lon: -105.954, elevation_m: 3200, snotel: ["505:CO:SNTL"]}            # Grizzly Peak
+  - {name: Breckenridge,    region: colorado, lat: 39.480, lon: -106.067, elevation_m: 3350, snotel: ["531:CO:SNTL"]}            # Hoosier Pass
+  - {name: Copper Mountain, region: colorado, lat: 39.501, lon: -106.156, elevation_m: 3290, snotel: ["415:CO:SNTL", "485:CO:SNTL"]}  # Copper Mtn, Fremont Pass
+  - {name: Vail,            region: colorado, lat: 39.606, lon: -106.355, elevation_m: 3150, snotel: ["842:CO:SNTL"]}            # Vail Mountain
+  - {name: Winter Park,     region: colorado, lat: 39.886, lon: -105.763, elevation_m: 3200, snotel: ["335:CO:SNTL"]}            # Berthoud Summit
+  - {name: Eldora,          region: colorado, lat: 39.937, lon: -105.583, elevation_m: 2950, snotel: ["564:CO:SNTL"]}            # Lake Eldora
+    # Example of the optional resort report scraper (add to any resort):
+    # report: {url: "https://www.example-resort.com/snow-report",
+    #          regex: '24\s*(?:hr|hour)[^0-9]{0,40}(\d+(?:\.\d+)?)\s*(?:"|in)'}
+
+  # ─── Utah · Wasatch Front ───
+  # Little Cottonwood Canyon (SR-210)
+  - {name: Alta,               region: utah, lat: 40.5884, lon: -111.6386, elevation_m: 2900, snotel: ["1308:UT:SNTL", "766:UT:SNTL"]}  # Atwater, Snowbird
+  - {name: Snowbird,           region: utah, lat: 40.5810, lon: -111.6566, elevation_m: 2950, snotel: ["766:UT:SNTL", "1308:UT:SNTL"]}  # Snowbird, Atwater
+  # Big Cottonwood Canyon (SR-190)
+  - {name: Brighton,           region: utah, lat: 40.5980, lon: -111.5832, elevation_m: 2750, snotel: ["366:UT:SNTL"]}                  # Brighton
+  - {name: Solitude,           region: utah, lat: 40.6199, lon: -111.5919, elevation_m: 2750, snotel: ["628:UT:SNTL", "366:UT:SNTL"]}   # Mill-D North, Brighton
+  # Park City (I-80 via Parleys)
+  - {name: Park City Mountain, region: utah, lat: 40.6514, lon: -111.5080, elevation_m: 2600, snotel: ["814:UT:SNTL"]}                  # Thaynes Canyon
+  - {name: Deer Valley,        region: utah, lat: 40.6374, lon: -111.4783, elevation_m: 2600, snotel: ["814:UT:SNTL"]}                  # Thaynes Canyon
+  - {name: Woodward Park City, region: utah, lat: 40.7499, lon: -111.5773, elevation_m: 2050, snotel: ["684:UT:SNTL"]}                  # Parleys Summit
+  # Ogden Valley
+  - {name: Snowbasin,          region: utah, lat: 41.2160, lon: -111.8569, elevation_m: 2400, snotel: ["332:UT:SNTL"]}                  # Ben Lomond Peak (nearest)
+  - {name: Powder Mountain,    region: utah, lat: 41.3790, lon: -111.7807, elevation_m: 2600, snotel: ["332:UT:SNTL"]}                  # Ben Lomond Peak
+  - {name: Nordic Valley,      region: utah, lat: 41.3101, lon: -111.8648, elevation_m: 1900, snotel: ["332:UT:SNTL"]}                  # Ben Lomond Peak
+  # Provo Canyon
+  - {name: Sundance,           region: utah, lat: 40.3933, lon: -111.5880, elevation_m: 2300, snotel: ["820:UT:SNTL"]}                  # Timpanogos Divide
+
+# ── Data sources on/off ──────────────────────────────────────
+sources:
+  snotel: true        # NRCS SNOTEL measured snow depth (no key)
+  open_meteo: true    # Open-Meteo modeled snowfall, past + forecast (no key)
+  nws: true           # National Weather Service gridded snowfall forecast (no key)
+  resort_reports: true
+  traffic: tomtom     # tomtom (live + predictive, free key) | heuristic (no key)
+
+# ── Notifications ────────────────────────────────────────────
+# Turn on any combination. Secrets come from environment variables:
+#   NTFY_TOPIC                      → phone push via the free ntfy app
+#   SMTP_USER, SMTP_PASSWORD, EMAIL_TO  → email (Gmail app password works)
+#   PUSHOVER_TOKEN, PUSHOVER_USER   → optional Pushover push
+notify:
+  console: true
+  ntfy: true
+  email: true
+  pushover: false
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  dashboard_url: ""   # e.g. https://<you>.github.io/powder-alert/ — added to alerts as a link

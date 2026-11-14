@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-14T09:39-07:00",
+  "checked": "2026-11-14T10:16-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -10,7 +10,7 @@
       "verdict": "NO",
       "new_snow_in": 4.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.3,
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -28,25 +28,25 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 2.7,
+          "new_snow_in": 2.8,
           "depth_in": null,
-          "detail": "2.7\" modeled last 24h",
+          "detail": "2.8\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.6,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.6\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         }
       ]
@@ -122,9 +122,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 3.6,
+          "new_snow_in": 3.7,
           "depth_in": null,
-          "detail": "3.6\" modeled last 24h",
+          "detail": "3.7\" modeled last 24h",
           "ok": true
         },
         {
@@ -224,25 +224,25 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 4.0,
+          "new_snow_in": 4.1,
           "depth_in": null,
-          "detail": "4.0\" modeled last 24h",
+          "detail": "4.1\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.1\" next 24h",
+          "detail": "0.3\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 1.2,
+          "new_snow_in": 1.0,
           "depth_in": null,
-          "detail": "1.2\" next 24h",
+          "detail": "1.0\" next 24h",
           "ok": true
         }
       ]
@@ -279,25 +279,25 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 3.8,
+          "new_snow_in": 4.0,
           "depth_in": null,
-          "detail": "3.8\" modeled last 24h",
+          "detail": "4.0\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.3,
+          "new_snow_in": 0.5,
           "depth_in": null,
-          "detail": "0.3\" next 24h",
+          "detail": "0.5\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.7,
+          "new_snow_in": 0.5,
           "depth_in": null,
-          "detail": "0.7\" next 24h",
+          "detail": "0.5\" next 24h",
           "ok": true
         }
       ]
@@ -334,25 +334,25 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 1.8,
+          "new_snow_in": 1.9,
           "depth_in": null,
-          "detail": "1.8\" modeled last 24h",
+          "detail": "1.9\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.2\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.6,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.6\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         }
       ]
@@ -381,9 +381,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 4.0,
+          "new_snow_in": 4.2,
           "depth_in": null,
-          "detail": "4.0\" modeled last 24h",
+          "detail": "4.2\" modeled last 24h",
           "ok": true
         },
         {
@@ -410,7 +410,7 @@
       "verdict": "NO",
       "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.7,
+      "forecast_in": 0.6,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -436,17 +436,17 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.9,
+          "new_snow_in": 0.8,
           "depth_in": null,
-          "detail": "0.9\" next 24h",
+          "detail": "0.8\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.4,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.4\" next 24h",
+          "detail": "0.3\" next 24h",
           "ok": true
         }
       ]
@@ -457,7 +457,7 @@
       "verdict": "NO",
       "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
+      "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -475,17 +475,17 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.5,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.5\" modeled last 24h",
+          "detail": "0.4\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.1\" next 24h",
+          "detail": "0.0\" next 24h",
           "ok": true
         },
         {
@@ -504,7 +504,7 @@
       "verdict": "NO",
       "new_snow_in": 1.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.2,
+      "forecast_in": 1.1,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -530,9 +530,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.1\" next 24h",
+          "detail": "0.0\" next 24h",
           "ok": true
         },
         {
@@ -551,7 +551,7 @@
       "verdict": "NO",
       "new_snow_in": 1.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.1,
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -577,9 +577,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 1.9,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "1.9\" next 24h",
+          "detail": "0.2\" next 24h",
           "ok": true
         },
         {
@@ -598,7 +598,7 @@
       "verdict": "NO",
       "new_snow_in": 0.5,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.1,
+      "forecast_in": 0.8,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -632,9 +632,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 1.0,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "1.0\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         },
         {
@@ -653,7 +653,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.8,
+      "forecast_in": 1.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -679,9 +679,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 1.4,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "1.4\" next 24h",
+          "detail": "0.3\" next 24h",
           "ok": true
         },
         {
@@ -700,7 +700,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.7,
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -726,9 +726,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.9,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.9\" next 24h",
+          "detail": "0.0\" next 24h",
           "ok": true
         },
         {
@@ -794,7 +794,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.6,
+      "forecast_in": 0.9,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -820,9 +820,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.7,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.7\" next 24h",
           "ok": true
         },
         {
@@ -888,7 +888,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
+      "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -914,9 +914,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.1\" next 24h",
+          "detail": "0.0\" next 24h",
           "ok": true
         },
         {

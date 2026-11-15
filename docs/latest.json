@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-15T10:01-07:00",
+  "checked": "2026-11-15T10:53-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -8,29 +8,29 @@
       "name": "Alta",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 3.0,
+      "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "3.0\" new (< 6\") per SNOTEL measured"
+        "2.0\" new (< 6\") per SNOTEL measured"
       ],
       "readings": [
         {
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 3.0,
+          "new_snow_in": 2.0,
           "depth_in": 7.0,
-          "detail": "3.0\" new / 7\" base (SWE suggests ~2.4\")",
+          "detail": "2.0\" new / 7\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {
           "source": "SNOTEL 766:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 3.0,
+          "new_snow_in": 2.0,
           "depth_in": 11.0,
-          "detail": "3.0\" new / 11\" base (SWE suggests ~1.2\")",
+          "detail": "2.0\" new / 11\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -63,29 +63,29 @@
       "name": "Snowbird",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 3.0,
+      "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "3.0\" new (< 6\") per SNOTEL measured"
+        "2.0\" new (< 6\") per SNOTEL measured"
       ],
       "readings": [
         {
           "source": "SNOTEL 766:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 3.0,
+          "new_snow_in": 2.0,
           "depth_in": 11.0,
-          "detail": "3.0\" new / 11\" base (SWE suggests ~1.2\")",
+          "detail": "2.0\" new / 11\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 3.0,
+          "new_snow_in": 2.0,
           "depth_in": 7.0,
-          "detail": "3.0\" new / 7\" base (SWE suggests ~2.4\")",
+          "detail": "2.0\" new / 7\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {
@@ -367,7 +367,7 @@
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~0.0\")",
+          "detail": "0.0\" new / 0\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -422,7 +422,7 @@
           "kind": "observed",
           "new_snow_in": 2.0,
           "depth_in": 3.0,
-          "detail": "2.0\" new / 3\" base (SWE suggests ~0.0\")",
+          "detail": "2.0\" new / 3\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {

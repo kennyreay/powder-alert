@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-15T08:38-07:00",
+  "checked": "2026-11-15T09:19-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -36,9 +36,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.3,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.3\" modeled last 24h",
+          "detail": "0.1\" modeled last 24h",
           "ok": true
         },
         {
@@ -91,9 +91,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.6,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "0.6\" modeled last 24h",
+          "detail": "0.2\" modeled last 24h",
           "ok": true
         },
         {
@@ -138,9 +138,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.1\" modeled last 24h",
+          "detail": "0.0\" modeled last 24h",
           "ok": true
         },
         {
@@ -185,9 +185,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.1\" modeled last 24h",
+          "detail": "0.0\" modeled last 24h",
           "ok": true
         },
         {
@@ -240,9 +240,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.2,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.2\" modeled last 24h",
+          "detail": "0.0\" modeled last 24h",
           "ok": true
         },
         {
@@ -483,9 +483,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.2,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.2\" modeled last 24h",
+          "detail": "0.0\" modeled last 24h",
           "ok": true
         },
         {
@@ -812,9 +812,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.4,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.4\" modeled last 24h",
+          "detail": "0.3\" modeled last 24h",
           "ok": true
         },
         {
@@ -859,9 +859,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.4,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.4\" modeled last 24h",
+          "detail": "0.3\" modeled last 24h",
           "ok": true
         },
         {

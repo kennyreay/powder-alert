@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16T05:36-07:00",
+  "checked": "2026-11-16T08:41-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -26,20 +26,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model (past)",
+          "source": "Open-Meteo model",
           "kind": "modeled",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
+          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
+          "ok": false
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
+          "detail": "",
+          "ok": false
         },
         {
           "source": "NWS forecast",
@@ -73,20 +73,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model (past)",
+          "source": "Open-Meteo model",
           "kind": "modeled",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
+          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
+          "ok": false
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
+          "detail": "",
+          "ok": false
         },
         {
           "source": "NWS forecast",
@@ -102,21 +102,21 @@
       "name": "Alta",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 1.5,
+      "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.6,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "1.5\" new (< 6\") per SNOTEL measured"
+        "2.0\" new (< 6\") per SNOTEL measured"
       ],
       "readings": [
         {
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 5.0,
-          "detail": "1.0\" new / 5\" base (SWE suggests ~1.2\")",
+          "new_snow_in": 2.0,
+          "depth_in": 6.0,
+          "detail": "2.0\" new / 6\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -138,17 +138,17 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.9,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.9\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.3\" next 24h",
           "ok": true
         }
       ]
@@ -157,13 +157,13 @@
       "name": "Snowbird",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 1.5,
+      "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.5,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "1.5\" new (< 6\") per SNOTEL measured"
+        "2.0\" new (< 6\") per SNOTEL measured"
       ],
       "readings": [
         {
@@ -177,9 +177,9 @@
         {
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 5.0,
-          "detail": "1.0\" new / 5\" base (SWE suggests ~1.2\")",
+          "new_snow_in": 2.0,
+          "depth_in": 6.0,
+          "detail": "2.0\" new / 6\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -193,17 +193,17 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.9,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.9\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -230,20 +230,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model (past)",
+          "source": "Open-Meteo model",
           "kind": "modeled",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
+          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
+          "ok": false
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
+          "detail": "",
+          "ok": false
         },
         {
           "source": "NWS forecast",
@@ -277,20 +277,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model (past)",
+          "source": "Open-Meteo model",
           "kind": "modeled",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
+          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
+          "ok": false
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
+          "detail": "",
+          "ok": false
         },
         {
           "source": "NWS forecast",
@@ -355,7 +355,7 @@
       "verdict": "NO",
       "new_snow_in": 1.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.1,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -389,9 +389,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -508,7 +508,7 @@
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~1.2\")",
+          "detail": "0.0\" new / 0\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -520,20 +520,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model (past)",
+          "source": "Open-Meteo model",
           "kind": "modeled",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
+          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
+          "ok": false
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
+          "detail": "",
+          "ok": false
         },
         {
           "source": "NWS forecast",
@@ -551,7 +551,7 @@
       "verdict": "NO",
       "new_snow_in": 0.5,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -585,17 +585,17 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.2\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -747,7 +747,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -773,17 +773,17 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -794,7 +794,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -820,9 +820,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         },
         {
@@ -841,7 +841,7 @@
       "verdict": "NO",
       "new_snow_in": 0.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.3,
       "drive": null,
       "better_departure": null,
       "reasons": [
@@ -867,9 +867,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.6,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.6\" next 24h",
           "ok": true
         },
         {

@@ -1,95 +1,23 @@
 {
-  "checked": "2026-11-18T08:17-07:00",
+  "checked": "2026-11-18T09:22-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
   "resorts": [
-    {
-      "name": "Snowbird",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "POWDER",
-      "new_snow_in": 15.5,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
-      "drive": {
-        "minutes": 57,
-        "free_flow_minutes": 37,
-        "ratio": 1.55,
-        "delay_min": 20,
-        "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
-        "detail": "wasatch pattern model"
-      },
-      "better_departure": {
-        "minutes": 39,
-        "free_flow_minutes": 37,
-        "ratio": 1.05,
-        "delay_min": 2,
-        "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
-        "detail": "wasatch pattern model"
-      },
-      "reasons": [
-        "15.5\" new per SNOTEL measured",
-        "traffic heavy: 57 min (+20)"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 766:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 18.0,
-          "depth_in": 25.0,
-          "detail": "18.0\" new / 25\" base (SWE suggests ~20.4\")",
-          "ok": true
-        },
-        {
-          "source": "SNOTEL 1308:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 13.0,
-          "depth_in": 17.0,
-          "detail": "13.0\" new / 17\" base (SWE suggests ~22.8\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 6.3,
-          "depth_in": null,
-          "detail": "6.3\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.2,
-          "depth_in": null,
-          "detail": "0.2\" next 24h",
-          "ok": true
-        }
-      ]
-    },
     {
       "name": "Alta",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "POWDER",
       "new_snow_in": 15.5,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
+      "forecast_in": 0.2,
       "drive": {
-        "minutes": 58,
+        "minutes": 50,
         "free_flow_minutes": 37,
-        "ratio": 1.55,
-        "delay_min": 21,
+        "ratio": 1.35,
+        "delay_min": 13,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -98,28 +26,28 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "15.5\" new per SNOTEL measured",
-        "traffic heavy: 58 min (+21)"
+        "traffic heavy: 50 min (+13)"
       ],
       "readings": [
         {
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 13.0,
-          "depth_in": 17.0,
-          "detail": "13.0\" new / 17\" base (SWE suggests ~22.8\")",
+          "depth_in": 16.0,
+          "detail": "13.0\" new / 16\" base (SWE suggests ~22.8\")",
           "ok": true
         },
         {
           "source": "SNOTEL 766:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 18.0,
-          "depth_in": 25.0,
-          "detail": "18.0\" new / 25\" base (SWE suggests ~20.4\")",
+          "depth_in": 24.0,
+          "detail": "18.0\" new / 24\" base (SWE suggests ~20.4\")",
           "ok": true
         },
         {
@@ -141,6 +69,78 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
+          "new_snow_in": 0.4,
+          "depth_in": null,
+          "detail": "0.4\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Snowbird",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 13.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.2,
+      "drive": {
+        "minutes": 50,
+        "free_flow_minutes": 37,
+        "ratio": 1.35,
+        "delay_min": 13,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 39,
+        "free_flow_minutes": 37,
+        "ratio": 1.05,
+        "delay_min": 2,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "13.0\" new per SNOTEL measured",
+        "traffic heavy: 50 min (+13)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 766:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Read timed out. (read timeout=20); HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Read timed out. (read timeout=20))",
+          "ok": false
+        },
+        {
+          "source": "SNOTEL 1308:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": 13.0,
+          "depth_in": 16.0,
+          "detail": "13.0\" new / 16\" base (SWE suggests ~22.8\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 6.3,
+          "depth_in": null,
+          "detail": "6.3\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.1,
+          "depth_in": null,
+          "detail": "0.1\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
           "new_snow_in": 0.3,
           "depth_in": null,
           "detail": "0.3\" next 24h",
@@ -156,12 +156,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 64,
+        "minutes": 56,
         "free_flow_minutes": 41,
-        "ratio": 1.55,
-        "delay_min": 23,
+        "ratio": 1.35,
+        "delay_min": 14,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -170,12 +170,12 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "13.0\" new per SNOTEL measured",
-        "traffic heavy: 64 min (+23)"
+        "traffic heavy: 56 min (+14)"
       ],
       "readings": [
         {
@@ -205,9 +205,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.2,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.2\" next 24h",
+          "detail": "0.3\" next 24h",
           "ok": true
         }
       ]
@@ -220,12 +220,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 60,
+        "minutes": 52,
         "free_flow_minutes": 39,
-        "ratio": 1.55,
-        "delay_min": 21,
+        "ratio": 1.35,
+        "delay_min": 14,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -234,12 +234,12 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "11.0\" new per SNOTEL measured",
-        "traffic heavy: 60 min (+21)"
+        "traffic heavy: 52 min (+14)"
       ],
       "readings": [
         {
@@ -247,7 +247,7 @@
           "kind": "observed",
           "new_snow_in": 9.0,
           "depth_in": 9.0,
-          "detail": "9.0\" new / 9\" base (SWE suggests ~10.8\")",
+          "detail": "9.0\" new / 9\" base (SWE suggests ~12.0\")",
           "ok": true
         },
         {
@@ -277,9 +277,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.2,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "0.2\" next 24h",
+          "detail": "0.3\" next 24h",
           "ok": true
         }
       ]
@@ -292,12 +292,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.0,
       "drive": {
-        "minutes": 98,
+        "minutes": 85,
         "free_flow_minutes": 63,
-        "ratio": 1.55,
-        "delay_min": 35,
+        "ratio": 1.35,
+        "delay_min": 22,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -306,12 +306,12 @@
         "ratio": 1.05,
         "delay_min": 3,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "11.0\" new per SNOTEL measured",
-        "traffic heavy: 98 min (+35)"
+        "traffic heavy: 85 min (+22)"
       ],
       "readings": [
         {
@@ -356,12 +356,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 103,
+        "minutes": 89,
         "free_flow_minutes": 66,
-        "ratio": 1.55,
-        "delay_min": 36,
+        "ratio": 1.35,
+        "delay_min": 23,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -370,12 +370,12 @@
         "ratio": 1.05,
         "delay_min": 3,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "9.0\" new per SNOTEL measured",
-        "traffic heavy: 103 min (+36)"
+        "traffic heavy: 89 min (+23)"
       ],
       "readings": [
         {
@@ -420,12 +420,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 124,
+        "minutes": 108,
         "free_flow_minutes": 80,
-        "ratio": 1.55,
-        "delay_min": 44,
+        "ratio": 1.35,
+        "delay_min": 28,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -434,12 +434,12 @@
         "ratio": 1.05,
         "delay_min": 4,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "9.0\" new per SNOTEL measured",
-        "traffic heavy: 124 min (+44)"
+        "traffic heavy: 108 min (+28)"
       ],
       "readings": [
         {
@@ -482,14 +482,14 @@
       "verdict": "POWDER",
       "new_snow_in": 9.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
+      "forecast_in": 0.2,
       "drive": {
-        "minutes": 140,
+        "minutes": 122,
         "free_flow_minutes": 91,
-        "ratio": 1.55,
-        "delay_min": 50,
+        "ratio": 1.35,
+        "delay_min": 32,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -498,12 +498,12 @@
         "ratio": 1.05,
         "delay_min": 5,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "9.0\" new per SNOTEL measured",
-        "traffic heavy: 140 min (+50)"
+        "traffic heavy: 122 min (+32)"
       ],
       "readings": [
         {
@@ -533,9 +533,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.3,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.3\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         }
       ]
@@ -548,12 +548,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 53,
+        "minutes": 47,
         "free_flow_minutes": 35,
-        "ratio": 1.55,
-        "delay_min": 19,
+        "ratio": 1.35,
+        "delay_min": 12,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -562,12 +562,12 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "7.0\" new per SNOTEL measured",
-        "traffic heavy: 53 min (+19)"
+        "traffic heavy: 47 min (+12)"
       ],
       "readings": [
         {
@@ -612,12 +612,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 70,
+        "minutes": 61,
         "free_flow_minutes": 45,
-        "ratio": 1.55,
-        "delay_min": 25,
+        "ratio": 1.35,
+        "delay_min": 16,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -626,12 +626,12 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "7.0\" new per SNOTEL measured",
-        "traffic heavy: 70 min (+25)"
+        "traffic heavy: 61 min (+16)"
       ],
       "readings": [
         {
@@ -639,7 +639,7 @@
           "kind": "observed",
           "new_snow_in": 7.0,
           "depth_in": 13.0,
-          "detail": "7.0\" new / 13\" base (SWE suggests ~7.2\")",
+          "detail": "7.0\" new / 13\" base (SWE suggests ~6.0\")",
           "ok": true
         },
         {
@@ -676,12 +676,12 @@
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.1,
       "drive": {
-        "minutes": 76,
+        "minutes": 66,
         "free_flow_minutes": 49,
-        "ratio": 1.55,
-        "delay_min": 27,
+        "ratio": 1.35,
+        "delay_min": 17,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T08:17:47.811027-07:00",
+        "depart": "2026-11-18T09:22:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
@@ -690,12 +690,12 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T09:47:47.811027-07:00",
+        "depart": "2026-11-18T09:52:32.057865-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
         "7.0\" new per SNOTEL measured",
-        "traffic heavy: 76 min (+27)"
+        "traffic heavy: 66 min (+17)"
       ],
       "readings": [
         {
@@ -703,7 +703,7 @@
           "kind": "observed",
           "new_snow_in": 7.0,
           "depth_in": 13.0,
-          "detail": "7.0\" new / 13\" base (SWE suggests ~7.2\")",
+          "detail": "7.0\" new / 13\" base (SWE suggests ~6.0\")",
           "ok": true
         },
         {
@@ -749,25 +749,25 @@
           "source": "SNOTEL 602:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 3.0,
-          "detail": "1.0\" new / 3\" base (SWE suggests ~1.2\")",
+          "depth_in": 2.0,
+          "detail": "1.0\" new / 2\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
-          "source": "Open-Meteo model",
+          "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": null,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
-          "ok": false
+          "detail": "0.4\" modeled last 24h",
+          "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": null,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "",
-          "ok": false
+          "detail": "0.0\" next 24h",
+          "ok": true
         },
         {
           "source": "NWS forecast",
@@ -801,20 +801,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model",
+          "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": null,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
-          "ok": false
+          "detail": "0.2\" modeled last 24h",
+          "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": null,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "",
-          "ok": false
+          "detail": "0.0\" next 24h",
+          "ok": true
         },
         {
           "source": "NWS forecast",
@@ -848,20 +848,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model",
+          "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": null,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
-          "ok": false
+          "detail": "0.2\" modeled last 24h",
+          "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": null,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "",
-          "ok": false
+          "detail": "0.0\" next 24h",
+          "ok": true
         },
         {
           "source": "NWS forecast",
@@ -895,20 +895,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model",
+          "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": null,
+          "new_snow_in": 0.3,
           "depth_in": null,
-          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
-          "ok": false
+          "detail": "0.3\" modeled last 24h",
+          "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": null,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "",
-          "ok": false
+          "detail": "0.0\" next 24h",
+          "ok": true
         },
         {
           "source": "NWS forecast",
@@ -950,20 +950,20 @@
           "ok": true
         },
         {
-          "source": "Open-Meteo model",
+          "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": null,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))",
-          "ok": false
+          "detail": "0.1\" modeled last 24h",
+          "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": null,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "",
-          "ok": false
+          "detail": "0.0\" next 24h",
+          "ok": true
         },
         {
           "source": "NWS forecast",

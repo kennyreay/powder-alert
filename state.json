@@ -6,5 +6,18 @@
     "Alta": "HEADS_UP",
     "Snowbird": "HEADS_UP",
     "Solitude": "HEADS_UP"
+  },
+  "2026-11-18": {
+    "Snowbird": "GO_NOW",
+    "Alta": "GO_NOW",
+    "Brighton": "GO_NOW",
+    "Solitude": "GO_NOW",
+    "Sundance": "GO_NOW",
+    "Snowbasin": "GO_NOW",
+    "Nordic Valley": "GO_NOW",
+    "Powder Mountain": "GO_NOW",
+    "Woodward Park City": "GO_NOW",
+    "Park City Mountain": "GO_NOW",
+    "Deer Valley": "GO_NOW"
   }
 }

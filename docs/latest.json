@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T04:54-07:00",
+  "checked": "2026-11-18T05:58-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -10,14 +10,14 @@
       "verdict": "GO_NOW",
       "new_snow_in": 16.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.1,
       "drive": {
         "minutes": 39,
         "free_flow_minutes": 37,
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -31,7 +31,7 @@
           "kind": "observed",
           "new_snow_in": 18.0,
           "depth_in": 26.0,
-          "detail": "18.0\" new / 26\" base (SWE suggests ~22.8\")",
+          "detail": "18.0\" new / 26\" base (SWE suggests ~21.6\")",
           "ok": true
         },
         {
@@ -61,9 +61,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -74,14 +74,14 @@
       "verdict": "GO_NOW",
       "new_snow_in": 16.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.1,
       "drive": {
         "minutes": 39,
         "free_flow_minutes": 37,
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -103,7 +103,7 @@
           "kind": "observed",
           "new_snow_in": 18.0,
           "depth_in": 26.0,
-          "detail": "18.0\" new / 26\" base (SWE suggests ~22.8\")",
+          "detail": "18.0\" new / 26\" base (SWE suggests ~21.6\")",
           "ok": true
         },
         {
@@ -125,9 +125,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -138,14 +138,14 @@
       "verdict": "GO_NOW",
       "new_snow_in": 13.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.1,
       "drive": {
         "minutes": 43,
         "free_flow_minutes": 41,
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -181,9 +181,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -194,14 +194,14 @@
       "verdict": "GO_NOW",
       "new_snow_in": 11.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.1,
       "drive": {
         "minutes": 41,
         "free_flow_minutes": 39,
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -245,9 +245,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -265,7 +265,7 @@
         "ratio": 1.05,
         "delay_min": 3,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -321,7 +321,7 @@
         "ratio": 1.05,
         "delay_min": 3,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -335,7 +335,7 @@
           "kind": "observed",
           "new_snow_in": 9.0,
           "depth_in": 9.0,
-          "detail": "9.0\" new / 9\" base (SWE suggests ~10.8\")",
+          "detail": "9.0\" new / 9\" base (SWE suggests ~14.4\")",
           "ok": true
         },
         {
@@ -377,7 +377,7 @@
         "ratio": 1.05,
         "delay_min": 4,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -391,7 +391,7 @@
           "kind": "observed",
           "new_snow_in": 9.0,
           "depth_in": 9.0,
-          "detail": "9.0\" new / 9\" base (SWE suggests ~10.8\")",
+          "detail": "9.0\" new / 9\" base (SWE suggests ~14.4\")",
           "ok": true
         },
         {
@@ -426,14 +426,14 @@
       "verdict": "GO_NOW",
       "new_snow_in": 9.0,
       "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
+      "forecast_in": 0.1,
       "drive": {
         "minutes": 95,
         "free_flow_minutes": 91,
         "ratio": 1.05,
         "delay_min": 5,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -447,7 +447,7 @@
           "kind": "observed",
           "new_snow_in": 9.0,
           "depth_in": 9.0,
-          "detail": "9.0\" new / 9\" base (SWE suggests ~10.8\")",
+          "detail": "9.0\" new / 9\" base (SWE suggests ~14.4\")",
           "ok": true
         },
         {
@@ -469,9 +469,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.0,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "0.0\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         }
       ]
@@ -489,7 +489,7 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -545,7 +545,7 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -559,7 +559,7 @@
           "kind": "observed",
           "new_snow_in": 7.0,
           "depth_in": 13.0,
-          "detail": "7.0\" new / 13\" base (SWE suggests ~8.4\")",
+          "detail": "7.0\" new / 13\" base (SWE suggests ~7.2\")",
           "ok": true
         },
         {
@@ -601,7 +601,7 @@
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-18T04:54:15.426260-07:00",
+        "depart": "2026-11-18T05:58:02.302856-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": null,
@@ -615,7 +615,7 @@
           "kind": "observed",
           "new_snow_in": 7.0,
           "depth_in": 13.0,
-          "detail": "7.0\" new / 13\" base (SWE suggests ~8.4\")",
+          "detail": "7.0\" new / 13\" base (SWE suggests ~7.2\")",
           "ok": true
         },
         {
@@ -802,8 +802,8 @@
           "source": "SNOTEL 531:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 5.0,
-          "detail": "1.0\" new / 5\" base (SWE suggests ~0.0\")",
+          "depth_in": 6.0,
+          "detail": "1.0\" new / 6\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -999,7 +999,7 @@
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~3.6\")",
+          "detail": "0.0\" new / 0\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {

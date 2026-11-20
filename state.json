@@ -33,6 +33,12 @@
   "2026-11-20": {
     "Park City Mountain": "GO_NOW",
     "Deer Valley": "GO_NOW",
-    "Sundance": "GO_NOW"
+    "Sundance": "GO_NOW",
+    "Snowbird": "POWDER",
+    "Alta": "POWDER",
+    "Snowbasin": "POWDER",
+    "Brighton": "POWDER",
+    "Nordic Valley": "POWDER",
+    "Solitude": "POWDER"
   }
 }

@@ -1,197 +1,77 @@
 {
-  "checked": "2026-11-20T07:14-07:00",
+  "checked": "2026-11-20T08:16-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
   "resorts": [
     {
-      "name": "Park City Mountain",
+      "name": "Snowbird",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "POWDER",
-      "new_snow_in": 10.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.7,
+      "new_snow_in": 10.8,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 1.0,
       "drive": {
-        "minutes": 70,
-        "free_flow_minutes": 45,
+        "minutes": 57,
+        "free_flow_minutes": 37,
         "ratio": 1.55,
-        "delay_min": 25,
+        "delay_min": 20,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-20T07:14:32.366952-07:00",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
         "detail": "wasatch pattern model"
       },
       "better_departure": {
-        "minutes": 47,
-        "free_flow_minutes": 45,
+        "minutes": 39,
+        "free_flow_minutes": 37,
         "ratio": 1.05,
         "delay_min": 2,
         "source": "estimate (no live traffic key)",
-        "depart": "2026-11-20T09:44:32.366952-07:00",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
         "detail": "wasatch pattern model"
       },
       "reasons": [
-        "10.0\" new per SNOTEL measured",
-        "traffic heavy: 70 min (+25)"
+        "10.8\" new per weather model (no measurements available)",
+        "traffic heavy: 57 min (+20)"
       ],
       "readings": [
         {
-          "source": "SNOTEL 814:UT:SNTL",
+          "source": "SNOTEL 766:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 10.0,
-          "depth_in": 23.0,
-          "detail": "10.0\" new / 23\" base (SWE suggests ~19.2\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/766:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=766%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A18&endDate=2026-11-20+15%3A18)",
+          "ok": false
+        },
+        {
+          "source": "SNOTEL 1308:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/1308:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=1308%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A19&endDate=2026-11-20+15%3A19)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 7.4,
+          "new_snow_in": 10.8,
           "depth_in": null,
-          "detail": "7.4\" modeled last 24h",
+          "detail": "10.8\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 2.3,
+          "new_snow_in": 0.1,
           "depth_in": null,
-          "detail": "2.3\" next 24h",
+          "detail": "0.1\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 1.1,
+          "new_snow_in": 1.9,
           "depth_in": null,
-          "detail": "1.1\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Deer Valley",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "POWDER",
-      "new_snow_in": 10.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.9,
-      "drive": {
-        "minutes": 76,
-        "free_flow_minutes": 49,
-        "ratio": 1.55,
-        "delay_min": 27,
-        "source": "estimate (no live traffic key)",
-        "depart": "2026-11-20T07:14:32.366952-07:00",
-        "detail": "wasatch pattern model"
-      },
-      "better_departure": {
-        "minutes": 51,
-        "free_flow_minutes": 49,
-        "ratio": 1.05,
-        "delay_min": 2,
-        "source": "estimate (no live traffic key)",
-        "depart": "2026-11-20T09:44:32.366952-07:00",
-        "detail": "wasatch pattern model"
-      },
-      "reasons": [
-        "10.0\" new per SNOTEL measured",
-        "traffic heavy: 76 min (+27)"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 814:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 10.0,
-          "depth_in": 23.0,
-          "detail": "10.0\" new / 23\" base (SWE suggests ~19.2\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 6.3,
-          "depth_in": null,
-          "detail": "6.3\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 3.0,
-          "depth_in": null,
-          "detail": "3.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.9,
-          "depth_in": null,
-          "detail": "0.9\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Sundance",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "POWDER",
-      "new_snow_in": 7.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.2,
-      "drive": {
-        "minutes": 98,
-        "free_flow_minutes": 63,
-        "ratio": 1.55,
-        "delay_min": 35,
-        "source": "estimate (no live traffic key)",
-        "depart": "2026-11-20T07:14:32.366952-07:00",
-        "detail": "wasatch pattern model"
-      },
-      "better_departure": {
-        "minutes": 66,
-        "free_flow_minutes": 63,
-        "ratio": 1.05,
-        "delay_min": 3,
-        "source": "estimate (no live traffic key)",
-        "depart": "2026-11-20T09:44:32.366952-07:00",
-        "detail": "wasatch pattern model"
-      },
-      "reasons": [
-        "7.0\" new per SNOTEL measured",
-        "traffic heavy: 98 min (+35)"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 820:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 7.0,
-          "depth_in": 17.0,
-          "detail": "7.0\" new / 17\" base (SWE suggests ~15.6\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 4.4,
-          "depth_in": null,
-          "detail": "4.4\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.9,
-          "depth_in": null,
-          "detail": "0.9\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 1.6,
-          "depth_in": null,
-          "detail": "1.6\" next 24h",
+          "detail": "1.9\" next 24h",
           "ok": true
         }
       ]
@@ -199,31 +79,48 @@
     {
       "name": "Alta",
       "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 2.7,
-      "drive": null,
-      "better_departure": null,
+      "verdict": "POWDER",
+      "new_snow_in": 10.7,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 1.1,
+      "drive": {
+        "minutes": 58,
+        "free_flow_minutes": 37,
+        "ratio": 1.55,
+        "delay_min": 21,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 39,
+        "free_flow_minutes": 37,
+        "ratio": 1.05,
+        "delay_min": 2,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
       "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
+        "10.7\" new per weather model (no measurements available)",
+        "traffic heavy: 58 min (+21)"
       ],
       "readings": [
         {
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 21.0,
-          "detail": "5.0\" new / 21\" base (SWE suggests ~10.8\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/1308:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=1308%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A18&endDate=2026-11-20+15%3A18)",
+          "ok": false
         },
         {
           "source": "SNOTEL 766:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 23.0,
-          "detail": "5.0\" new / 23\" base (SWE suggests ~12.0\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/766:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=766%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A18&endDate=2026-11-20+15%3A18)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
@@ -236,166 +133,9 @@
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 3.0,
+          "new_snow_in": 0.2,
           "depth_in": null,
-          "detail": "3.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 2.4,
-          "depth_in": null,
-          "detail": "2.4\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Snowbird",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 2.5,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 766:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 23.0,
-          "detail": "5.0\" new / 23\" base (SWE suggests ~12.0\")",
-          "ok": true
-        },
-        {
-          "source": "SNOTEL 1308:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 21.0,
-          "detail": "5.0\" new / 21\" base (SWE suggests ~10.8\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 10.5,
-          "depth_in": null,
-          "detail": "10.5\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 2.6,
-          "depth_in": null,
-          "detail": "2.6\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 2.3,
-          "depth_in": null,
-          "detail": "2.3\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Brighton",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 2.5,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 366:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 16.0,
-          "detail": "5.0\" new / 16\" base (SWE suggests ~10.8\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 9.0,
-          "depth_in": null,
-          "detail": "9.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 3.0,
-          "depth_in": null,
-          "detail": "3.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 2.0,
-          "depth_in": null,
-          "detail": "2.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Solitude",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 2.3,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 628:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 11.0,
-          "detail": "5.0\" new / 11\" base (SWE suggests ~6.0\")",
-          "ok": true
-        },
-        {
-          "source": "SNOTEL 366:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 16.0,
-          "detail": "5.0\" new / 16\" base (SWE suggests ~10.8\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 7.9,
-          "depth_in": null,
-          "detail": "7.9\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 2.6,
-          "depth_in": null,
-          "detail": "2.6\" next 24h",
+          "detail": "0.2\" next 24h",
           "ok": true
         },
         {
@@ -411,46 +151,455 @@
     {
       "name": "Snowbasin",
       "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 2.9,
-      "drive": null,
-      "better_departure": null,
+      "verdict": "POWDER",
+      "new_snow_in": 9.6,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 3.5,
+      "drive": {
+        "minutes": 103,
+        "free_flow_minutes": 66,
+        "ratio": 1.55,
+        "delay_min": 36,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 69,
+        "free_flow_minutes": 66,
+        "ratio": 1.05,
+        "delay_min": 3,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
       "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
+        "9.6\" new per weather model (no measurements available)",
+        "traffic heavy: 103 min (+36)"
       ],
       "readings": [
         {
           "source": "SNOTEL 332:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 13.0,
-          "detail": "5.0\" new / 13\" base (SWE suggests ~15.6\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/332:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=332%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A20&endDate=2026-11-20+15%3A20)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 8.8,
+          "new_snow_in": 9.6,
           "depth_in": null,
-          "detail": "8.8\" modeled last 24h",
+          "detail": "9.6\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 1.5,
+          "new_snow_in": 3.2,
           "depth_in": null,
-          "detail": "1.5\" next 24h",
+          "detail": "3.2\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 4.2,
+          "new_snow_in": 3.7,
           "depth_in": null,
-          "detail": "4.2\" next 24h",
+          "detail": "3.7\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Sundance",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 9.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.7,
+      "drive": {
+        "minutes": 98,
+        "free_flow_minutes": 63,
+        "ratio": 1.55,
+        "delay_min": 35,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 66,
+        "free_flow_minutes": 63,
+        "ratio": 1.05,
+        "delay_min": 3,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "9.0\" new per SNOTEL measured",
+        "traffic heavy: 98 min (+35)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 820:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": 9.0,
+          "depth_in": 19.0,
+          "detail": "9.0\" new / 19\" base (SWE suggests ~19.2\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 4.0,
+          "depth_in": null,
+          "detail": "4.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.1,
+          "depth_in": null,
+          "detail": "0.1\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 1.2,
+          "depth_in": null,
+          "detail": "1.2\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Brighton",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 8.7,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.9,
+      "drive": {
+        "minutes": 64,
+        "free_flow_minutes": 41,
+        "ratio": 1.55,
+        "delay_min": 23,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 43,
+        "free_flow_minutes": 41,
+        "ratio": 1.05,
+        "delay_min": 2,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "8.7\" new per weather model (no measurements available)",
+        "traffic heavy: 64 min (+23)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 366:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/366:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=366%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A19&endDate=2026-11-20+15%3A19)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 8.7,
+          "depth_in": null,
+          "detail": "8.7\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.2,
+          "depth_in": null,
+          "detail": "0.2\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 1.6,
+          "depth_in": null,
+          "detail": "1.6\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Nordic Valley",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 8,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 3.1,
+      "drive": {
+        "minutes": 124,
+        "free_flow_minutes": 80,
+        "ratio": 1.55,
+        "delay_min": 44,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 84,
+        "free_flow_minutes": 80,
+        "ratio": 1.05,
+        "delay_min": 4,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "8\" new per SNOTEL measured",
+        "traffic heavy: 124 min (+44)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 332:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": 8,
+          "depth_in": 16,
+          "detail": "8\" new / 16\" base (SWE suggests ~16.8\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 4.5,
+          "depth_in": null,
+          "detail": "4.5\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 2.8,
+          "depth_in": null,
+          "detail": "2.8\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 3.5,
+          "depth_in": null,
+          "detail": "3.5\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Solitude",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 7.7,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.9,
+      "drive": {
+        "minutes": 60,
+        "free_flow_minutes": 39,
+        "ratio": 1.55,
+        "delay_min": 21,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 41,
+        "free_flow_minutes": 39,
+        "ratio": 1.05,
+        "delay_min": 2,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "7.7\" new per weather model (no measurements available)",
+        "traffic heavy: 60 min (+21)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 628:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/628:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=628%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A19&endDate=2026-11-20+15%3A19)",
+          "ok": false
+        },
+        {
+          "source": "SNOTEL 366:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/366:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=366%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A19&endDate=2026-11-20+15%3A19)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 7.7,
+          "depth_in": null,
+          "detail": "7.7\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.1,
+          "depth_in": null,
+          "detail": "0.1\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 1.7,
+          "depth_in": null,
+          "detail": "1.7\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Park City Mountain",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 7.0,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.6,
+      "drive": {
+        "minutes": 70,
+        "free_flow_minutes": 45,
+        "ratio": 1.55,
+        "delay_min": 25,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 47,
+        "free_flow_minutes": 45,
+        "ratio": 1.05,
+        "delay_min": 2,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "7.0\" new per weather model (no measurements available)",
+        "traffic heavy: 70 min (+25)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 814:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/814:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=814%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A20&endDate=2026-11-20+15%3A20)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 7.0,
+          "depth_in": null,
+          "detail": "7.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.1,
+          "depth_in": null,
+          "detail": "0.1\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 1.0,
+          "depth_in": null,
+          "detail": "1.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Deer Valley",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "POWDER",
+      "new_snow_in": 6.4,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.4,
+      "drive": {
+        "minutes": 76,
+        "free_flow_minutes": 49,
+        "ratio": 1.55,
+        "delay_min": 27,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T08:16:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "better_departure": {
+        "minutes": 51,
+        "free_flow_minutes": 49,
+        "ratio": 1.05,
+        "delay_min": 2,
+        "source": "estimate (no live traffic key)",
+        "depart": "2026-11-20T09:46:30.567708-07:00",
+        "detail": "wasatch pattern model"
+      },
+      "reasons": [
+        "6.4\" new per weather model (no measurements available)",
+        "traffic heavy: 76 min (+27)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 814:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/814:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=814%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A20&endDate=2026-11-20+15%3A20)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 6.4,
+          "depth_in": null,
+          "detail": "6.4\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.8,
+          "depth_in": null,
+          "detail": "0.8\" next 24h",
           "ok": true
         }
       ]
@@ -459,92 +608,45 @@
       "name": "Powder Mountain",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 6.6,
+      "new_snow_in": 5.3,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 7.1,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
+        "5.3\" new (< 6\") per weather model (no measurements available)"
       ],
       "readings": [
         {
           "source": "SNOTEL 332:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 13.0,
-          "detail": "5.0\" new / 13\" base (SWE suggests ~15.6\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/332:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=332%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A20&endDate=2026-11-20+15%3A20)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 4.6,
+          "new_snow_in": 5.3,
           "depth_in": null,
-          "detail": "4.6\" modeled last 24h",
+          "detail": "5.3\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 5.7,
-          "depth_in": null,
-          "detail": "5.7\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
           "kind": "forecast",
           "new_snow_in": 7.5,
           "depth_in": null,
           "detail": "7.5\" next 24h",
           "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Nordic Valley",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 5.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 2.9,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "5.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 332:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 5.0,
-          "depth_in": 13.0,
-          "detail": "5.0\" new / 13\" base (SWE suggests ~15.6\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 3.3,
-          "depth_in": null,
-          "detail": "3.3\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 1.7,
-          "depth_in": null,
-          "detail": "1.7\" next 24h",
-          "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 4.0,
+          "new_snow_in": 6.7,
           "depth_in": null,
-          "detail": "4.0\" next 24h",
+          "detail": "6.7\" next 24h",
           "ok": true
         }
       ]
@@ -553,45 +655,92 @@
       "name": "Woodward Park City",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 3.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 1.6,
+      "new_snow_in": 2.8,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.6,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "3.0\" new (< 6\") per SNOTEL measured"
+        "2.8\" new (< 6\") per weather model (no measurements available)"
       ],
       "readings": [
         {
           "source": "SNOTEL 684:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 3.0,
-          "depth_in": 8.0,
-          "detail": "3.0\" new / 8\" base (SWE suggests ~2.4\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/684:UT:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=684%3AUT%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A20&endDate=2026-11-20+15%3A20)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 2.0,
+          "new_snow_in": 2.8,
           "depth_in": null,
-          "detail": "2.0\" modeled last 24h",
+          "detail": "2.8\" modeled last 24h",
           "ok": true
         },
         {
           "source": "Open-Meteo forecast",
           "kind": "forecast",
-          "new_snow_in": 2.2,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "2.2\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         },
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.9,
+          "new_snow_in": 0.8,
           "depth_in": null,
-          "detail": "0.9\" next 24h",
+          "detail": "0.8\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Vail",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.1,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.8,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "0.1\" new (< 6\") per weather model (no measurements available)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 842:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/842:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=842%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A17&endDate=2026-11-20+15%3A17)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.1,
+          "depth_in": null,
+          "detail": "0.1\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.5,
+          "depth_in": null,
+          "detail": "0.5\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 1.1,
+          "depth_in": null,
+          "detail": "1.1\" next 24h",
           "ok": true
         }
       ]
@@ -600,22 +749,69 @@
       "name": "Loveland",
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
-      "new_snow_in": 2.0,
-      "new_snow_basis": "SNOTEL measured",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "weather model (no measurements available)",
       "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "2.0\" new (< 6\") per SNOTEL measured"
+        "0.0\" new (< 6\") per weather model (no measurements available)"
       ],
       "readings": [
         {
           "source": "SNOTEL 602:CO:SNTL",
           "kind": "observed",
-          "new_snow_in": 2.0,
-          "depth_in": 3.0,
-          "detail": "2.0\" new / 3\" base (SWE suggests ~1.2\")",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/602:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=602%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A16&endDate=2026-11-20+15%3A16)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
           "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.5,
+          "depth_in": null,
+          "detail": "0.5\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Arapahoe Basin",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.2,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "0.0\" new (< 6\") per weather model (no measurements available)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 505:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/505:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=505%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A16&endDate=2026-11-20+15%3A16)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
@@ -644,72 +840,25 @@
       ]
     },
     {
-      "name": "Arapahoe Basin",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 2.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "2.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 505:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 2.0,
-          "depth_in": 2.0,
-          "detail": "2.0\" new / 2\" base (SWE suggests ~1.2\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.3,
-          "depth_in": null,
-          "detail": "0.3\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
       "name": "Keystone",
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
-      "new_snow_in": 2.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.1,
+      "new_snow_in": 0.0,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "2.0\" new (< 6\") per SNOTEL measured"
+        "0.0\" new (< 6\") per weather model (no measurements available)"
       ],
       "readings": [
         {
           "source": "SNOTEL 505:CO:SNTL",
           "kind": "observed",
-          "new_snow_in": 2.0,
-          "depth_in": 2.0,
-          "detail": "2.0\" new / 2\" base (SWE suggests ~1.2\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/505:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=505%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A17&endDate=2026-11-20+15%3A17)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
@@ -730,9 +879,9 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
-          "new_snow_in": 0.3,
+          "new_snow_in": 0.4,
           "depth_in": null,
-          "detail": "0.3\" next 24h",
+          "detail": "0.4\" next 24h",
           "ok": true
         }
       ]
@@ -741,171 +890,22 @@
       "name": "Breckenridge",
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
-      "new_snow_in": 1.0,
-      "new_snow_basis": "SNOTEL measured",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "weather model (no measurements available)",
       "forecast_in": 0.2,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
+        "0.0\" new (< 6\") per weather model (no measurements available)"
       ],
       "readings": [
         {
           "source": "SNOTEL 531:CO:SNTL",
           "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 7.0,
-          "detail": "1.0\" new / 7\" base (SWE suggests ~1.2\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
+          "new_snow_in": null,
           "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.2,
-          "depth_in": null,
-          "detail": "0.2\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.3,
-          "depth_in": null,
-          "detail": "0.3\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Copper Mountain",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 0.5,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.4,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "0.5\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 415:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 0.0,
-          "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~1.2\")",
-          "ok": true
-        },
-        {
-          "source": "SNOTEL 485:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 5.0,
-          "detail": "1.0\" new / 5\" base (SWE suggests ~0.0\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.3,
-          "depth_in": null,
-          "detail": "0.3\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.5,
-          "depth_in": null,
-          "detail": "0.5\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Vail",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 0.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.8,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 842:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 0.0,
-          "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~0.0\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.6,
-          "depth_in": null,
-          "detail": "0.6\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 1.0,
-          "depth_in": null,
-          "detail": "1.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Winter Park",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 0.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.2,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 335:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 0.0,
-          "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~0.0\")",
-          "ok": true
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/531:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=531%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A17&endDate=2026-11-20+15%3A17)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
@@ -926,6 +926,108 @@
         {
           "source": "NWS forecast",
           "kind": "forecast",
+          "new_snow_in": 0.3,
+          "depth_in": null,
+          "detail": "0.3\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Copper Mountain",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.5,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "0.0\" new (< 6\") per weather model (no measurements available)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 415:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/415:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=415%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A17&endDate=2026-11-20+15%3A17)",
+          "ok": false
+        },
+        {
+          "source": "SNOTEL 485:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/485:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=485%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A17&endDate=2026-11-20+15%3A17)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.4,
+          "depth_in": null,
+          "detail": "0.4\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.5,
+          "depth_in": null,
+          "detail": "0.5\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Winter Park",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "weather model (no measurements available)",
+      "forecast_in": 0.1,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "0.0\" new (< 6\") per weather model (no measurements available)"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 335:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/335:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=335%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A18&endDate=2026-11-20+15%3A18)",
+          "ok": false
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
           "new_snow_in": 0.2,
           "depth_in": null,
           "detail": "0.2\" next 24h",
@@ -938,21 +1040,21 @@
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
       "new_snow_in": 0.0,
-      "new_snow_basis": "SNOTEL measured",
+      "new_snow_basis": "weather model (no measurements available)",
       "forecast_in": 0.1,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
+        "0.0\" new (< 6\") per weather model (no measurements available)"
       ],
       "readings": [
         {
           "source": "SNOTEL 564:CO:SNTL",
           "kind": "observed",
-          "new_snow_in": 0.0,
-          "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~2.4\")",
-          "ok": true
+          "new_snow_in": null,
+          "depth_in": null,
+          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/564:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=564%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-18+07%3A18&endDate=2026-11-20+15%3A18)",
+          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",

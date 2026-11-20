@@ -19,5 +19,18 @@
     "Woodward Park City": "GO_NOW",
     "Park City Mountain": "GO_NOW",
     "Deer Valley": "GO_NOW"
+  },
+  "2026-11-19-evening": {
+    "Park City Mountain": "HEADS_UP",
+    "Deer Valley": "HEADS_UP",
+    "Snowbasin": "HEADS_UP",
+    "Powder Mountain": "HEADS_UP",
+    "Nordic Valley": "HEADS_UP",
+    "Sundance": "HEADS_UP",
+    "Alta": "HEADS_UP",
+    "Snowbird": "HEADS_UP",
+    "Brighton": "HEADS_UP",
+    "Solitude": "HEADS_UP",
+    "Woodward Park City": "HEADS_UP"
   }
 }

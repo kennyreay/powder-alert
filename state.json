@@ -34,12 +34,12 @@
     "Park City Mountain": "GO_NOW",
     "Deer Valley": "GO_NOW",
     "Sundance": "GO_NOW",
-    "Snowbird": "POWDER",
-    "Alta": "POWDER",
-    "Snowbasin": "POWDER",
-    "Brighton": "POWDER",
-    "Nordic Valley": "POWDER",
-    "Solitude": "POWDER",
-    "Powder Mountain": "POWDER"
+    "Snowbird": "GO_NOW",
+    "Alta": "GO_NOW",
+    "Snowbasin": "GO_NOW",
+    "Brighton": "GO_NOW",
+    "Nordic Valley": "GO_NOW",
+    "Solitude": "GO_NOW",
+    "Powder Mountain": "GO_NOW"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-22T09:25-07:00",
+  "checked": "2026-11-22T10:23-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -22,7 +22,101 @@
           "kind": "observed",
           "new_snow_in": 4.0,
           "depth_in": 4.0,
-          "detail": "4.0\" new / 4\" base (SWE suggests ~1.2\")",
+          "detail": "4.0\" new / 4\" base (SWE suggests ~2.4\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Loveland",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 3.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.0,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "3.0\" new (< 6\") per SNOTEL measured"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 602:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": 3.0,
+          "depth_in": 4.0,
+          "detail": "3.0\" new / 4\" base (SWE suggests ~2.4\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Arapahoe Basin",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 2.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.0,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "2.0\" new (< 6\") per SNOTEL measured"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 505:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": 2.0,
+          "depth_in": 5.0,
+          "detail": "2.0\" new / 5\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -55,21 +149,21 @@
       "name": "Keystone",
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
-      "new_snow_in": 2,
+      "new_snow_in": 2.0,
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "2\" new (< 6\") per SNOTEL measured"
+        "2.0\" new (< 6\") per SNOTEL measured"
       ],
       "readings": [
         {
           "source": "SNOTEL 505:CO:SNTL",
           "kind": "observed",
-          "new_snow_in": 2,
-          "depth_in": 5,
-          "detail": "2\" new / 5\" base (SWE suggests ~0.0\")",
+          "new_snow_in": 2.0,
+          "depth_in": 5.0,
+          "detail": "2.0\" new / 5\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -122,9 +216,9 @@
         {
           "source": "Open-Meteo model (past)",
           "kind": "modeled",
-          "new_snow_in": 0.1,
+          "new_snow_in": 0.0,
           "depth_in": null,
-          "detail": "0.1\" modeled last 24h",
+          "detail": "0.0\" modeled last 24h",
           "ok": true
         },
         {
@@ -162,8 +256,8 @@
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 26.0,
-          "detail": "1.0\" new / 26\" base (SWE suggests ~0.0\")",
+          "depth_in": 25.0,
+          "detail": "1.0\" new / 25\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -225,8 +319,8 @@
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 26.0,
-          "detail": "1.0\" new / 26\" base (SWE suggests ~0.0\")",
+          "depth_in": 25.0,
+          "detail": "1.0\" new / 25\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -280,103 +374,9 @@
           "source": "SNOTEL 485:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 9.0,
-          "detail": "1.0\" new / 9\" base (SWE suggests ~0.0\")",
+          "depth_in": 8.0,
+          "detail": "1.0\" new / 8\" base (SWE suggests ~1.2\")",
           "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Loveland",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 0.0,
-      "new_snow_basis": "weather model (no measurements available)",
-      "forecast_in": 0.0,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per weather model (no measurements available)"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 602:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": null,
-          "depth_in": null,
-          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/602:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=602%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-20+08%3A25&endDate=2026-11-22+16%3A25)",
-          "ok": false
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Arapahoe Basin",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 0.0,
-      "new_snow_basis": "weather model (no measurements available)",
-      "forecast_in": 0.0,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per weather model (no measurements available)"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 505:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": null,
-          "depth_in": null,
-          "detail": "unavailable (503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/hourly/start_of_period/505:CO:SNTL%7Cid=%22%22%7Cname/-48,0/SNWD::value,WTEQ::value,TOBS::value; 503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=505%3ACO%3ASNTL&elements=SNWD%2CWTEQ&duration=HOURLY&beginDate=2026-11-20+08%3A25&endDate=2026-11-22+16%3A25)",
-          "ok": false
         },
         {
           "source": "Open-Meteo model (past)",
@@ -515,8 +515,8 @@
           "source": "SNOTEL 366:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
-          "depth_in": 18.0,
-          "detail": "0.0\" new / 18\" base (SWE suggests ~1.2\")",
+          "depth_in": 17.0,
+          "detail": "0.0\" new / 17\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -570,8 +570,8 @@
           "source": "SNOTEL 366:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
-          "depth_in": 18.0,
-          "detail": "0.0\" new / 18\" base (SWE suggests ~1.2\")",
+          "depth_in": 17.0,
+          "detail": "0.0\" new / 17\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {

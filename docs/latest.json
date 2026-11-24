@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24T04:51-07:00",
+  "checked": "2026-11-24T06:03-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -413,8 +413,8 @@
           "source": "SNOTEL 684:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 9.0,
-          "detail": "1.0\" new / 9\" base (SWE suggests ~0.0\")",
+          "depth_in": 8.0,
+          "detail": "1.0\" new / 8\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {

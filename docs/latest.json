@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-25T06:08-07:00",
+  "checked": "2026-11-25T07:35-07:00",
   "mode": "morning",
   "demo": false,
   "min_new_snow_in": 6,
@@ -8,21 +8,21 @@
       "name": "Loveland",
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
-      "new_snow_in": 2.0,
+      "new_snow_in": 3.5,
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
       "reasons": [
-        "2.0\" new (< 6\") per SNOTEL measured"
+        "3.5\" new (< 6\") per SNOTEL measured"
       ],
       "readings": [
         {
           "source": "SNOTEL 602:CO:SNTL",
           "kind": "observed",
-          "new_snow_in": 2.0,
-          "depth_in": 5.0,
-          "detail": "2.0\" new / 5\" base (SWE suggests ~1.2\")",
+          "new_snow_in": 3.5,
+          "depth_in": 6.0,
+          "detail": "3.5\" new / 6\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -146,61 +146,6 @@
       ]
     },
     {
-      "name": "Copper Mountain",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 1.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 415:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 2.0,
-          "detail": "1.0\" new / 2\" base (SWE suggests ~0.0\")",
-          "ok": true
-        },
-        {
-          "source": "SNOTEL 485:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 7.0,
-          "detail": "1.0\" new / 7\" base (SWE suggests ~0.0\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
       "name": "Vail",
       "region": "Colorado \u00b7 I-70",
       "verdict": "NO",
@@ -265,7 +210,7 @@
           "kind": "observed",
           "new_snow_in": 1.0,
           "depth_in": 2.0,
-          "detail": "1.0\" new / 2\" base (SWE suggests ~0.0\")",
+          "detail": "1.0\" new / 2\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -483,6 +428,61 @@
       ]
     },
     {
+      "name": "Copper Mountain",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.5,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.0,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "0.5\" new (< 6\") per SNOTEL measured"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 415:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": 1.0,
+          "depth_in": 2.0,
+          "detail": "1.0\" new / 2\" base (SWE suggests ~0.0\")",
+          "ok": true
+        },
+        {
+          "source": "SNOTEL 485:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": 0.0,
+          "depth_in": 7.0,
+          "detail": "0.0\" new / 7\" base (SWE suggests ~0.0\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
       "name": "Alta",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
@@ -499,8 +499,8 @@
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 21.0,
-          "detail": "1.0\" new / 21\" base (SWE suggests ~1.2\")",
+          "depth_in": 22.0,
+          "detail": "1.0\" new / 22\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -562,8 +562,8 @@
           "source": "SNOTEL 1308:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 21.0,
-          "detail": "1.0\" new / 21\" base (SWE suggests ~1.2\")",
+          "depth_in": 22.0,
+          "detail": "1.0\" new / 22\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -618,54 +618,7 @@
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 14.0,
-          "detail": "0.0\" new / 14\" base (SWE suggests ~1.2\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Sundance",
-      "region": "Utah \u00b7 Wasatch Front",
-      "verdict": "NO",
-      "new_snow_in": 0.5,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "0.5\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 820:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 0.5,
-          "depth_in": 16.0,
-          "detail": "0.5\" new / 16\" base (SWE suggests ~1.2\")",
+          "detail": "0.0\" new / 14\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {
@@ -806,7 +759,7 @@
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 14.0,
-          "detail": "0.0\" new / 14\" base (SWE suggests ~1.2\")",
+          "detail": "0.0\" new / 14\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {
@@ -901,6 +854,53 @@
           "new_snow_in": 0.0,
           "depth_in": 20.0,
           "detail": "0.0\" new / 20\" base (SWE suggests ~1.2\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Sundance",
+      "region": "Utah \u00b7 Wasatch Front",
+      "verdict": "NO",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.0,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [
+        "0.0\" new (< 6\") per SNOTEL measured"
+      ],
+      "readings": [
+        {
+          "source": "SNOTEL 820:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": 0.0,
+          "depth_in": 16.0,
+          "detail": "0.0\" new / 16\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {

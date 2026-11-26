@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-25T10:44-07:00",
-  "mode": "morning",
+  "checked": "2026-11-25T19:21-07:00",
+  "mode": "evening",
   "demo": false,
   "min_new_snow_in": 6,
   "resorts": [
@@ -13,110 +13,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "2.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 602:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 2.0,
           "depth_in": 5.0,
-          "detail": "2.0\" new / 5\" base (SWE suggests ~1.2\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Arapahoe Basin",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 1.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 505:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 4.0,
-          "detail": "1.0\" new / 4\" base (SWE suggests ~2.4\")",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo model (past)",
-          "kind": "modeled",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" modeled last 24h",
-          "ok": true
-        },
-        {
-          "source": "Open-Meteo forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        },
-        {
-          "source": "NWS forecast",
-          "kind": "forecast",
-          "new_snow_in": 0.0,
-          "depth_in": null,
-          "detail": "0.0\" next 24h",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "name": "Keystone",
-      "region": "Colorado \u00b7 I-70",
-      "verdict": "NO",
-      "new_snow_in": 1.0,
-      "new_snow_basis": "SNOTEL measured",
-      "forecast_in": 0.0,
-      "drive": null,
-      "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
-      "readings": [
-        {
-          "source": "SNOTEL 505:CO:SNTL",
-          "kind": "observed",
-          "new_snow_in": 1.0,
-          "depth_in": 4.0,
-          "detail": "1.0\" new / 4\" base (SWE suggests ~2.4\")",
+          "detail": "2.0\" new / 5\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -154,16 +58,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 415:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
           "depth_in": 2.0,
-          "detail": "1.0\" new / 2\" base (SWE suggests ~0.0\")",
+          "detail": "1.0\" new / 2\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -209,16 +111,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 842:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
           "depth_in": 3.0,
-          "detail": "1.0\" new / 3\" base (SWE suggests ~0.0\")",
+          "detail": "1.0\" new / 3\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -256,9 +156,7 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 335:CO:SNTL",
@@ -295,7 +193,7 @@
       ]
     },
     {
-      "name": "Woodward Park City",
+      "name": "Brighton",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
       "new_snow_in": 1.0,
@@ -303,16 +201,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
-          "source": "SNOTEL 684:UT:SNTL",
+          "source": "SNOTEL 366:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 7.0,
-          "detail": "1.0\" new / 7\" base (SWE suggests ~1.2\")",
+          "depth_in": 14.0,
+          "detail": "1.0\" new / 14\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {
@@ -350,16 +246,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 332:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
           "depth_in": 12.0,
-          "detail": "1.0\" new / 12\" base (SWE suggests ~0.0\")",
+          "detail": "1.0\" new / 12\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -397,16 +291,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 332:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
           "depth_in": 12.0,
-          "detail": "1.0\" new / 12\" base (SWE suggests ~0.0\")",
+          "detail": "1.0\" new / 12\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -444,16 +336,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "1.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 332:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
           "depth_in": 12.0,
-          "detail": "1.0\" new / 12\" base (SWE suggests ~0.0\")",
+          "detail": "1.0\" new / 12\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -483,32 +373,22 @@
       ]
     },
     {
-      "name": "Solitude",
+      "name": "Sundance",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
-      "new_snow_in": 0.8,
+      "new_snow_in": 1.0,
       "new_snow_basis": "SNOTEL measured",
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.8\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
-          "source": "SNOTEL 628:UT:SNTL",
+          "source": "SNOTEL 820:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 1.0,
-          "depth_in": 8.0,
-          "detail": "1.0\" new / 8\" base (SWE suggests ~1.2\")",
-          "ok": true
-        },
-        {
-          "source": "SNOTEL 366:UT:SNTL",
-          "kind": "observed",
-          "new_snow_in": 0.5,
-          "depth_in": 14.0,
-          "detail": "0.5\" new / 14\" base (SWE suggests ~1.2\")",
+          "depth_in": 16.0,
+          "detail": "1.0\" new / 16\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -546,9 +426,7 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.5\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 1308:UT:SNTL",
@@ -563,7 +441,7 @@
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 24.0,
-          "detail": "0.0\" new / 24\" base (SWE suggests ~2.4\")",
+          "detail": "0.0\" new / 24\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -601,16 +479,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.5\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 766:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 24.0,
-          "detail": "0.0\" new / 24\" base (SWE suggests ~2.4\")",
+          "detail": "0.0\" new / 24\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -648,7 +524,7 @@
       ]
     },
     {
-      "name": "Brighton",
+      "name": "Solitude",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
       "new_snow_in": 0.5,
@@ -656,16 +532,112 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.5\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
+        {
+          "source": "SNOTEL 628:UT:SNTL",
+          "kind": "observed",
+          "new_snow_in": 0.0,
+          "depth_in": 8.0,
+          "detail": "0.0\" new / 8\" base (SWE suggests ~1.2\")",
+          "ok": true
+        },
         {
           "source": "SNOTEL 366:UT:SNTL",
           "kind": "observed",
-          "new_snow_in": 0.5,
+          "new_snow_in": 1.0,
           "depth_in": 14.0,
-          "detail": "0.5\" new / 14\" base (SWE suggests ~1.2\")",
+          "detail": "1.0\" new / 14\" base (SWE suggests ~2.4\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Arapahoe Basin",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.0,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [],
+      "readings": [
+        {
+          "source": "SNOTEL 505:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": 0.0,
+          "depth_in": 3.0,
+          "detail": "0.0\" new / 3\" base (SWE suggests ~2.4\")",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo model (past)",
+          "kind": "modeled",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" modeled last 24h",
+          "ok": true
+        },
+        {
+          "source": "Open-Meteo forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        },
+        {
+          "source": "NWS forecast",
+          "kind": "forecast",
+          "new_snow_in": 0.0,
+          "depth_in": null,
+          "detail": "0.0\" next 24h",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "Keystone",
+      "region": "Colorado \u00b7 I-70",
+      "verdict": "NO",
+      "new_snow_in": 0.0,
+      "new_snow_basis": "SNOTEL measured",
+      "forecast_in": 0.0,
+      "drive": null,
+      "better_departure": null,
+      "reasons": [],
+      "readings": [
+        {
+          "source": "SNOTEL 505:CO:SNTL",
+          "kind": "observed",
+          "new_snow_in": 0.0,
+          "depth_in": 3.0,
+          "detail": "0.0\" new / 3\" base (SWE suggests ~2.4\")",
           "ok": true
         },
         {
@@ -703,9 +675,7 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 531:CO:SNTL",
@@ -750,16 +720,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 564:CO:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
           "depth_in": 0.0,
-          "detail": "0.0\" new / 0\" base (SWE suggests ~0.0\")",
+          "detail": "0.0\" new / 0\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {
@@ -797,16 +765,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 814:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
-          "depth_in": 20.0,
-          "detail": "0.0\" new / 20\" base (SWE suggests ~1.2\")",
+          "depth_in": 19.0,
+          "detail": "0.0\" new / 19\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -844,16 +810,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
           "source": "SNOTEL 814:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
-          "depth_in": 20.0,
-          "detail": "0.0\" new / 20\" base (SWE suggests ~1.2\")",
+          "depth_in": 19.0,
+          "detail": "0.0\" new / 19\" base (SWE suggests ~0.0\")",
           "ok": true
         },
         {
@@ -883,7 +847,7 @@
       ]
     },
     {
-      "name": "Sundance",
+      "name": "Woodward Park City",
       "region": "Utah \u00b7 Wasatch Front",
       "verdict": "NO",
       "new_snow_in": 0.0,
@@ -891,16 +855,14 @@
       "forecast_in": 0.0,
       "drive": null,
       "better_departure": null,
-      "reasons": [
-        "0.0\" new (< 6\") per SNOTEL measured"
-      ],
+      "reasons": [],
       "readings": [
         {
-          "source": "SNOTEL 820:UT:SNTL",
+          "source": "SNOTEL 684:UT:SNTL",
           "kind": "observed",
           "new_snow_in": 0.0,
-          "depth_in": 16.0,
-          "detail": "0.0\" new / 16\" base (SWE suggests ~1.2\")",
+          "depth_in": 7.0,
+          "detail": "0.0\" new / 7\" base (SWE suggests ~1.2\")",
           "ok": true
         },
         {

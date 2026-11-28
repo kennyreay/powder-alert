@@ -1,47 +1,4 @@
 {
-  "2026-11-16-evening": {
-    "Alta": "HEADS_UP",
-    "Snowbird": "HEADS_UP",
-    "Solitude": "HEADS_UP"
-  },
-  "2026-11-18": {
-    "Snowbird": "GO_NOW",
-    "Alta": "GO_NOW",
-    "Brighton": "GO_NOW",
-    "Solitude": "GO_NOW",
-    "Sundance": "GO_NOW",
-    "Snowbasin": "GO_NOW",
-    "Nordic Valley": "GO_NOW",
-    "Powder Mountain": "GO_NOW",
-    "Woodward Park City": "GO_NOW",
-    "Park City Mountain": "GO_NOW",
-    "Deer Valley": "GO_NOW"
-  },
-  "2026-11-19-evening": {
-    "Park City Mountain": "HEADS_UP",
-    "Deer Valley": "HEADS_UP",
-    "Snowbasin": "HEADS_UP",
-    "Powder Mountain": "HEADS_UP",
-    "Nordic Valley": "HEADS_UP",
-    "Sundance": "HEADS_UP",
-    "Alta": "HEADS_UP",
-    "Snowbird": "HEADS_UP",
-    "Brighton": "HEADS_UP",
-    "Solitude": "HEADS_UP",
-    "Woodward Park City": "HEADS_UP"
-  },
-  "2026-11-20": {
-    "Park City Mountain": "GO_NOW",
-    "Deer Valley": "GO_NOW",
-    "Sundance": "GO_NOW",
-    "Snowbird": "GO_NOW",
-    "Alta": "GO_NOW",
-    "Snowbasin": "GO_NOW",
-    "Brighton": "GO_NOW",
-    "Nordic Valley": "GO_NOW",
-    "Solitude": "GO_NOW",
-    "Powder Mountain": "GO_NOW"
-  },
   "2026-11-21": {
     "Woodward Park City": "GO_NOW",
     "Snowbird": "GO_NOW",
@@ -50,5 +7,9 @@
   "2026-11-22": {
     "Arapahoe Basin": "GO_NOW",
     "Keystone": "GO_NOW"
+  },
+  "2026-11-27-evening": {
+    "Loveland": "HEADS_UP",
+    "Arapahoe Basin": "HEADS_UP"
   }
 }
